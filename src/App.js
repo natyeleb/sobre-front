@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import NavBar from './navBar/NavBar';
-import Home from './home/Home';
+import NavBar from './componentes/navBar/NavBar';
+import Home from './componentes/home/Home';
 
 function App() {
   return (
