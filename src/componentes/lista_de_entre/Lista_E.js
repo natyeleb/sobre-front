@@ -13,13 +13,13 @@ import basquete from '../imagem/basquete.jpeg';
 const Lista_E = () =>{
     return(
         <div className="imagem">
-            <Lista titulo="Ballet" imagem={ballet} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
-            <Lista titulo="Dança do ventre" imagem={danca_ventre} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
-            <Lista titulo="Ginastica Artistica" imagem={ginastica_artistica} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
-            <Lista titulo="Zumba" imagem={zumba} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
-            <Lista titulo="Natação" imagem={natacao} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
-            <Lista titulo="Futsal" imagem={futsal} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
-            <Lista titulo="Basquete" imagem={basquete} descricao="sdpvihjefoubeuorfbouwreubhrohg"/>
+            <Lista titulo="Ballet" imagem={ballet} descricao="As aulas de ballet classico que são oferecidas pela Prefeitura Municipal de Caieiras gratuitamente para pessoas de 4 á 35 anos de idade."/>
+            <Lista titulo="Dança do ventre" imagem={danca_ventre} descricao=""/>
+            <Lista titulo="Ginastica Artistica" imagem={ginastica_artistica} descricao=""/>
+            <Lista titulo="Zumba" imagem={zumba} descricao=""/>
+            <Lista titulo="Natação" imagem={natacao} descricao=""/>
+            <Lista titulo="Futsal" imagem={futsal} descricao=""/>
+            <Lista titulo="Basquete" imagem={basquete} descricao=""/>
         
 
         </div>
