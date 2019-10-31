@@ -1,5 +1,6 @@
 import React from "react"
 import './lista.scss'
+import { Link } from 'react-router-dom'
 import img from '../imagem/ingles.jpeg';
 const Lista = ({titulo,imagem,descricao}) =>{
     return(
@@ -8,7 +9,7 @@ const Lista = ({titulo,imagem,descricao}) =>{
             <img src={imagem}alt="imagem" />
             <p>{descricao}</p>
 
-            <button>Increva-se</button>
+            <Link to="/"><button>Increva-se</button></Link>
         </div>
     )
     }
