@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Input from './Input';
 //import { Link } from 'react-router-dom';
 import './Cursos.scss';
+import Button from './Button';
 
 const Curso = () => {
     const [nome, setNome] = useState("");
@@ -20,7 +21,7 @@ const Curso = () => {
     return(
     <div className="cadastro">
         
-        <h1>Cadastre-se</h1>
+        <h1>Matricule-se aqui!</h1>
         <form>
     
             <Input 
@@ -115,7 +116,7 @@ const Curso = () => {
         
 
 
-           <Input type="submit" value="Cadastrar"/> 
+           Cadastrar 
         
             </form> 
         </div>

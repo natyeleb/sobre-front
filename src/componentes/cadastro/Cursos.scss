@@ -1,4 +1,6 @@
 .cadastro{
+    background-image: url('../imagem/CadastroFundo\ .jpg');
+    background-size: cover;
     width: 100%;
     display: flex;
     align-items: center;
@@ -10,5 +12,6 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+    
     }
 }
