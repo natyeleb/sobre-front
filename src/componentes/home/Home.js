@@ -8,7 +8,6 @@ import pre from '../imagem/img.jpg';
 const Home= () =>{
     return(
         <div className="home">
-        <NavBar />
         <div className="imagem">
             <img src={pre} alt="prefeitura"/>
         </div>
