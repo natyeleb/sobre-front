@@ -19,10 +19,10 @@ const NavBar = () => {
             <nav>
                 <div className="ancora">
                 <h1>DESCOMPLICA</h1>
-                <a onClick={FecharMenu} href='/'>HOME</a>
-                <a onClick={FecharMenu} href="/"> CURSOS</a>
-                <a onClick={FecharMenu} href="/">ENTERTENIMENTOS</a>
-                <a onClick={FecharMenu} href="/">SOBRE</a>
+                <Link onClick={FecharMenu} to='/'>HOME</Link>
+                <Link onClick={FecharMenu} to="/cursos"> CURSOS</Link>
+                <Link onClick={FecharMenu} to="/">ENTERTENIMENTOS</Link>
+                <Link onClick={FecharMenu} to="/">SOBRE</Link>
                 </div>
                 <div onClick={AbrirMenu} id="menu-hamburguer">
                     <span className={`${menuAtivo ? "virarX1" : ""}`}></span>
@@ -32,10 +32,10 @@ const NavBar = () => {
             </nav>
             <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
                 <h1>DESCOMPLICA</h1>
-                <a onClick={FecharMenu} href='/'>HOME</a>
-                <a onClick={FecharMenu} href="/"> CURSOS</a>
-                <a onClick={FecharMenu} href="/">ENTERTENIMENTOS</a>
-                <a onClick={FecharMenu} href="/">SOBRE</a>
+                <Link onClick={FecharMenu} to='/'>HOME</Link>
+                <Link onClick={FecharMenu} to="/cursos"> CURSOS</Link>
+                <Link onClick={FecharMenu} to="/entretenimentos">ENTERTENIMENTOS</Link>
+                <Link onClick={FecharMenu} to="/sobre">SOBRE</Link>
                 
             </section>
         </div>
