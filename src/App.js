@@ -1,14 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router , Route } from 'react-router-dom'
 import logo from './logo.svg';
 import './App.scss';
 import NavBar from './componentes/navBar/NavBar';
 import Home from './componentes/home/Home';
+import entretenimentos from './componentes/entreterimentos/Cadastro';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <NavBar/>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/entretenimentos" component={entretenimentos}/>
+
+    </Router>
+    
   );
 }
 
