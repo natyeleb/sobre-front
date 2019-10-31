@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Cadastro.scss";
 import Input from "./Input";
+import Button from './Button';
 
 const Cadastro = () => {
     const [nome, setNome] = useState("");
@@ -17,7 +18,7 @@ const Cadastro = () => {
 
     return (
         <div className="Cadastro">
-            <h1>Faça o seu Cadastro!</h1>
+            <h1>Matricule-se aqui!</h1>
             <form>
                 <Input
                 value={nome}
@@ -109,7 +110,8 @@ const Cadastro = () => {
             
                 />
 
-            <Input className="botao" type="submit" value="Cadastrar"/>
+            <Button> Cadastrar </Button>
+
 
 </form>
     </div>
