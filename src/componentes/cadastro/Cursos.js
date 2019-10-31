@@ -116,7 +116,7 @@ const Curso = () => {
         
 
 
-           Cadastrar 
+           <Button>Cadastrar</Button> 
         
             </form> 
         </div>
