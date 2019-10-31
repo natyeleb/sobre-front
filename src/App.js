@@ -1,13 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router , Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.scss';
 import NavBar from './componentes/navBar/NavBar';
-import Home from './componentes/home/Home';
+import home from './componentes/home/Home';
+import Cursos from './componentes/cadastro/Cursos.js';
 
-function App() {
+const App =()=> {
   return (
     <div className="App">
-      <Home />
+      <Router>
+        <NavBar/>
+        <Route exact path="/" component={home} />
+        <Route path="/cursos" component={Cursos} />
+
+      </Router>
     </div>
   );
 }

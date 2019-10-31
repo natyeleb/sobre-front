@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import NavBar from '../navBar/NavBar';
+
 import face from '../imagem/facebook (1).png';
 import inst from '../imagem/instagram.png';
 import you from '../imagem/youtube.png';
@@ -8,7 +8,6 @@ import pre from '../imagem/img.jpg';
 const Home= () =>{
     return(
         <div className="home">
-        <NavBar />
         <div className="imagem">
             <img src={pre} alt="prefeitura"/>
         </div>
