@@ -3,13 +3,14 @@ import './Lista.scss';
 import img from '../imagem/ballet.jpg';
 import ims from '../imagem/dancaventre.jpeg';
 
-const Lista = () =>{
+const Lista = ({titulo,imagem,descricao}) =>{
     return(
         <div className="Lista">
-            <h1>Ballet</h1>
-            <img src={img} alt="imagem" />
-            <p>hjenyudoehwydb</p>
-
+            <h1>{titulo}</h1>
+            <img src={imagem} alt="imagem" />
+            <p>{descricao}</p>
+           
+           <button> INCREVA-SE</button>
            
         </div>
     )

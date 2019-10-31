@@ -1,9 +1,30 @@
 .Lista{
-    
-    div{
-        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 150px;
+        height: 30px;
+        border-radius: 30px;
+        border: none;
+        background-color: #16381E;
+        color: white;
+        font: 16px;
+        cursor: pointer;
+    }
+    img{
+        width: 250px;
+        border-radius: 20px;
+    }
+    p{
+        background-color: rgba(0, 0, 0, 0.199);
+        border-radius: 30px;
+        width: 250px;
+        height: 100px;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
-    }
+    
+    
 }
