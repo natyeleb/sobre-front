@@ -5,6 +5,7 @@ import './App.scss';
 import NavBar from './componentes/navBar/NavBar';
 import Home from './componentes/home/Home';
 import entretenimentos from './componentes/entreterimentos/Cadastro';
+import Sobre from './componentes/Sobre/Sobre';
 
 
 
@@ -14,6 +15,7 @@ const App = () => {
       <NavBar/>
         <Route exact path="/" component={Home}/>
         <Route exact path="/cadastrarenter" component={entretenimentos}/>
+        <Route exact path="/sobre" component={Sobre}/>
 
     </Router>
     
