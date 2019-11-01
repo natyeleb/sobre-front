@@ -11,7 +11,7 @@ const Lista = ({titulo,imagem,descricao}) =>{
             <img src={imagem} alt="imagem" />
             <p>{descricao}</p>
            
-          <Link to="/"><button> Inscreva-se</button></Link>
+          <Link to="/cadastroentre"><button> Inscreva-se</button></Link>
            
            <div></div>
         </div>

@@ -30,6 +30,7 @@ const Curso = () => {
             placeholder="Digite o nome"
             atualizarState={setNome}
             value={nome}
+            obrigatorio
             />
 
             <Input 

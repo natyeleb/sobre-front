@@ -9,7 +9,7 @@ const Lista = ({titulo,imagem,descricao}) =>{
             <img src={imagem}alt="imagem" />
             <p>{descricao}</p>
 
-            <Link to="/"><button>Increva-se</button></Link>
+            <Link to="/cadastrocursos"><button>Increva-se</button></Link>
         </div>
     )
     }
