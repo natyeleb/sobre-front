@@ -1,0 +1,35 @@
+.Lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 150px;
+        height: 30px;
+        border-radius: 30px;
+        border: none;
+        background-color: #01a458;
+        color: white;
+        font-size: 11px;
+        cursor: pointer;
+    }
+    img{
+        width: 250px;
+        border-radius: 20px;
+    }
+    p{
+        background-color: rgba(0, 0, 0, 0.199);
+        border-radius: 30px;
+        width: 250px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div{
+        width: 300px;
+        height: 3px;
+        margin-top: 15%;
+        background-color: darkgreen;
+    }
+    
+}
