@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import "./NavBar.scss"
 
 const NavBar = () => {
@@ -19,10 +19,14 @@ const NavBar = () => {
             <nav>
              <div className="ancora">
                 <h1>DESCOMPLICA</h1>
-                <Link onClick={FecharMenu} to="/"> CURSOS</Link>
-                <Link onClick={FecharMenu} to='/'>HOME</Link>
-                <Link onClick={FecharMenu} to="/entretenimentos">ENTERTENIMENTOS</Link>
-                <Link onClick={FecharMenu} to="/">SOBRE</Link>
+
+
+                <a onClick={FecharMenu} href='/'>HOME</a>
+                <a onClick={FecharMenu} href="/cadastrar"> CURSOS</a>
+                <a onClick={FecharMenu} href="/entrenimentos">ENTERTENIMENTOS</a>
+                <a onClick={FecharMenu} href="/sobre">SOBRE</a>
+
+
                 </div>
                 <div onClick={AbrirMenu} id="menu-hamburguer">
                     <span className={`${menuAtivo ? "virarX1" : ""}`}></span>
@@ -32,10 +36,14 @@ const NavBar = () => {
             </nav>
             <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
                 <h1>DESCOMPLICA</h1>
-                <Link onClick={FecharMenu} to="/"> CURSOS</Link>
-                <Link onClick={FecharMenu} to='/'>HOME</Link>
-                <Link onClick={FecharMenu} to="/entretenimentos">ENTERTENIMENTOS</Link>
-                <Link onClick={FecharMenu} to="/">SOBRE</Link>
+
+
+                <a onClick={FecharMenu} href='/'>HOME</a>
+                <a onClick={FecharMenu} href="/cadastrar"> CURSOS</a>
+                <a onClick={FecharMenu} href="/entretenimentos">ENTERTENIMENTOS</a>
+                <a onClick={FecharMenu} href="/sobre">SOBRE</a>
+
+
             </section>
         </div>
     );
