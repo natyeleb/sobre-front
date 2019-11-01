@@ -3,16 +3,19 @@ import { BrowserRouter as Router , Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.scss';
 import NavBar from './componentes/navBar/NavBar';
-import home from './componentes/home/Home';
-import Cursos from './componentes/cadastro/Cursos.js';
 
-const App =()=> {
+import Home from './componentes/home/Home';
+import {BrowserRouter as Router,Route} from 'react-router-dom';
+import ListaC from './componentes/lista_de_cursos/Lista_C.js'
+
+const App = () => {
   return (
     <div className="App">
       <Router>
-        <NavBar/>
-        <Route exact path="/" component={home} />
-        <Route path="/cadastrar" component={Cursos} />
+      <NavBar/>
+      <Route exact path="/" component={Home}/>
+      <Route path="/cursos" component={ListaC}/>
+
 
       </Router>
     </div>
