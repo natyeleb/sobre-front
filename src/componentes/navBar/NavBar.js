@@ -34,7 +34,7 @@ const NavBar = () => {
                 <h1>DESCOMPLICA</h1>
                 <Link onClick={FecharMenu} to="/"> CURSOS</Link>
                 <Link onClick={FecharMenu} to='/'>HOME</Link>
-                <Link onClick={FecharMenu} to="/">ENTERTENIMENTOS</Link>
+                <Link onClick={FecharMenu} to="/entretenimentos">ENTERTENIMENTOS</Link>
                 <Link onClick={FecharMenu} to="/">SOBRE</Link>
             </section>
         </div>
