@@ -33,7 +33,7 @@ const Curso = () => {
             />
 
             <Input 
-            type="number" 
+            type="text" 
             label="Rg" 
             placeholder="Digite seu Rg"
             atualizarState={setRg}
@@ -42,7 +42,7 @@ const Curso = () => {
             />
 
             <Input 
-            type="number" 
+            type="text" 
             label="Cpf" 
             placeholder="Digite seu Cpf"
             atualizarState={setCpf}
@@ -51,7 +51,7 @@ const Curso = () => {
             />
             
             <Input 
-            type="number" 
+            type="text" 
             label="Idade" 
             placeholder="Idade"
             atualizarState={setIdade}
@@ -59,7 +59,7 @@ const Curso = () => {
             />
 
             <Input 
-            type="number" 
+            type="text" 
             label="Data de Nascimento" 
             placeholder="Data de Nascimento"
             atualizarState={setNascimento}
@@ -75,7 +75,7 @@ const Curso = () => {
             />
 
             <Input 
-            type="number" 
+            type="text" 
             label="Número de residência" 
             placeholder="Número de residência"
             atualizarState={setNumero}
@@ -83,7 +83,7 @@ const Curso = () => {
             />
 
             <Input 
-            type="number" 
+            type="text" 
             label="Telefone" 
             placeholder="Digite seu Telefone"
             atualizarState={setTelefone}
@@ -99,7 +99,7 @@ const Curso = () => {
             />
             
             <Input 
-            type="number" 
+            type="text" 
             label="Horário" 
             placeholder="Horário"
             atualizarState={setHorario}
@@ -108,6 +108,8 @@ const Curso = () => {
 
             <Input 
             type="select" 
+            option value="Masculino"
+            option value="Feminino"
             label="Sexo" 
             placeholder="Digite seu sexo"
             atualizarState={setSexo}
