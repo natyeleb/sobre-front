@@ -11,7 +11,7 @@ const Lista = ({titulo,imagem,descricao}) =>{
             <p>{descricao}</p>
            
            <button> INCREVA-SE</button>
-           
+           <div></div>
         </div>
     )
 
