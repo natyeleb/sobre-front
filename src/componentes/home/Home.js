@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.scss';
-import NavBar from '../navBar/NavBar';
+
 import face from '../imagem/facebook (1).png';
 import inst from '../imagem/instagram.png';
 import you from '../imagem/youtube.png';
