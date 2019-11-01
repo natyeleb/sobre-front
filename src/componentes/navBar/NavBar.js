@@ -21,7 +21,7 @@ const NavBar = () => {
                 <h1>DESCOMPLICA</h1>
                 <a onClick={FecharMenu} href='/'>HOME</a>
                 <a onClick={FecharMenu} href="/"> CURSOS</a>
-                <a onClick={FecharMenu} href="/entretenimentos">ENTRETENIMENTOS</a>
+                <a onClick={FecharMenu} href="/cadastrarenter">ENTRETENIMENTOS</a>
                 <a onClick={FecharMenu} href="/">SOBRE</a>
                 </div>
                 <div onClick={AbrirMenu} id="menu-hamburguer">
@@ -34,7 +34,7 @@ const NavBar = () => {
                 <h1>DESCOMPLICA</h1>
                 <a onClick={FecharMenu} href='/'>HOME</a>
                 <a onClick={FecharMenu} href="/"> CURSOS</a>
-                <a onClick={FecharMenu} href="/entretenimentos">ENTRETENIMENTOS</a>
+                <a onClick={FecharMenu} href="/cadastrarenter">ENTRETENIMENTOS</a>
                 <a onClick={FecharMenu} href="/">SOBRE</a>
                 
             </section>
