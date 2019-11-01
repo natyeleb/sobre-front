@@ -22,9 +22,11 @@ const NavBar = () => {
 
 
                 <a onClick={FecharMenu} href='/'>HOME</a>
+
                 <a onClick={FecharMenu} href="/cadastrar"> CURSOS</a>
                 <a onClick={FecharMenu} href="/entrenimentos">ENTERTENIMENTOS</a>
                 <a onClick={FecharMenu} href="/sobre">SOBRE</a>
+
 
 
                 </div>
@@ -39,6 +41,7 @@ const NavBar = () => {
 
 
                 <a onClick={FecharMenu} href='/'>HOME</a>
+
                 <a onClick={FecharMenu} href="/cadastrar"> CURSOS</a>
                 <a onClick={FecharMenu} href="/entretenimentos">ENTERTENIMENTOS</a>
                 <a onClick={FecharMenu} href="/sobre">SOBRE</a>
