@@ -14,6 +14,7 @@ import ListaC from './componentes/lista_de_cursos/Lista_C.js'
 import Curso from './componentes/cadastro/Cursos';
 import Cadastro from './componentes/entreterimentos/Cadastro';
 import Lista_E from './componentes/lista_de_entre/Lista_E';
+import Sobre from './componentes/Sobre/Sobre';
 
 
 
@@ -29,6 +30,7 @@ const App = () => {
       <Route path="/entretenimentos" component={Lista_E}/>
       <Route path="/cadastrocursos" component={Curso}/>
       <Route path="/cadastroentre" component={Cadastro}/>
+      <Route path="/sobre" component={Sobre}/>
 
       </Router>
     </div>
