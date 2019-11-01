@@ -19,7 +19,7 @@ const ListaC = () =>{
     <Lista titulo="Logística" imagem={log} descricao="Descrição: Curso de logistica gratuito com duração de 2 anos contendo um diploma após a finalização do mesmo."/>
     <Lista titulo="Administração" imagem={adm} descricao="Descrição: Curso de admistração gratuito com duração de 1 anos e 6 meses contendo um diploma após a finalização do mesmo."/>
     <Lista titulo="Libras" imagem={lb} descricao="Descrição: Curso de libras gratuito com duração de 6 meses contendo um diploma após a finalização do mesmo."/>
-    <Lista titulo="Desenho" imagem={ds} descricao="Descrição: Curso de desenho gratuito com duração de 6 meses contendo um diploma após a finalização do mesmo."/>
+    <Lista titulo="Desenho" imagem={ds} descricao="Descrição: Curso de desenho gratuito com duração de 6 meses   contendo um diploma após a finalização do mesmo."/>
 
 
     </div>      
