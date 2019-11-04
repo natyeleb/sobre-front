@@ -9,10 +9,19 @@ const FinalE= () => {
         <div className='texto'>
             <h1>Parabéns!</h1>
             <div className="container">
-                <p></p>
+                <p>Cadastro concluido!</p>
 
-                <p>Numero de inscricap</p>
-                <p>ggvetdyegwdne3y</p>
+                <p>Seu número de inscrição é: 123</p>
+
+                <p>Recomendaçoes:<br/>
+                <br/>
+
+
+                    Levar xerox dos seguintes documentos na primeira aula:<br/> <br/>
+                      - RG;<br/>
+                      - Comprovante de resideñcia;<br/>
+                      - CPF<br/>
+                </p>
 
             </div>
             
