@@ -15,7 +15,7 @@ const Home= () =>{
         </div>
         <aside>
             <p>BEM VINDO AO DESCOMPLICA</p>
-            <p>AQUI VOCÊ PODE SE CADASTRAR EM VARIOS CURSOS E ENTRETENIMETOS DISPONIBILIZADOS PELA PREFEITURA DE CAIEIRAS</p>
+            <p>AQUI VOCÊ PODE SE CADASTRAR EM VARIOS CURSOS E ENTRETENIMENTOS DISPONIBILIZADOS PELA PREFEITURA DE CAIEIRAS</p>
         </aside>
         <footer>
             <div className="icone">
