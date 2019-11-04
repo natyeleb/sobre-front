@@ -10,6 +10,8 @@ const Lista = ({titulo,imagem,descricao}) =>{
             <p>{descricao}</p>
 
             <Link to="/cadastrocursos"><button>Increva-se</button></Link>
+
+            <div className="divisao"></div>
         </div>
     )
     }
