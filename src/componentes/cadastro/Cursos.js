@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Input from './Input';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Cursos.scss';
 import Button from './Button';
 
@@ -119,8 +119,7 @@ const Curso = () => {
         
 
 
-           <Button>Cadastrar</Button> 
-        
+           < Link to="/finalc"><Button>Cadastrar</Button> </Link>
             </form> 
         </div>
     );
