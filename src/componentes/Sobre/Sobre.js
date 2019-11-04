@@ -2,6 +2,8 @@ import React from 'react';
 import './Sobre.scss';
 import karen from '../imagem/karen.jpeg';
 import Thiago from '../imagem/thiagoooo.jpeg';
+import Julio from '../imagem/julio.jpeg';
+import Douglas from '../imagem/Douglas.jpeg';
 
 const Sobre = () => {
     return(
@@ -11,11 +13,14 @@ const Sobre = () => {
             No DESCOMPLICA o usuário consegue realizar a sua inscrição nos cursos disponíveis virtualmente. 
             </p>
 
-        <section className="icones">
-            <span img={karen} alt={karen}></span>
-            
-            <span img={Thiago} alt={Thiago}></span>
-        </section>
+        <div className="Icones">
+           <span> <img src={karen} alt={karen}/></span>
+           <span> <img src={Thiago} alt={Thiago}/></span>
+           <span> <img src={Julio} alt={Julio}/></span>
+           <span> <img src={Douglas} alt={Douglas}/></span>
+           <span> <img src={karen} alt={karen}/></span>
+
+        </div>
 
         </div>
     );

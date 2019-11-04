@@ -1,11 +1,18 @@
 .Tudo{
-    background-image: url('../imagem/CadastroFundo.jpg');
     width: 100%;
     height: 100%;
-        .span{
+        .Icones{
             width:100%;
             height: 100%;
+            span{
+                width: 50%;
+                height: 25%;
+            img{
+                border-radius: 100%;
+                width:25%;
+            }
         }
+    }
 
         }
     
