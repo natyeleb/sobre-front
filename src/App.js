@@ -16,6 +16,8 @@ import Cadastro from './componentes/entreterimentos/Cadastro';
 import Lista_E from './componentes/lista_de_entre/Lista_E';
 import Sobre from './componentes/Sobre/Sobre';
 
+import FinalE from './componentes/finalE/FinalE';
+
 
 
 const App = () => {
@@ -30,7 +32,9 @@ const App = () => {
       <Route path="/entretenimentos" component={Lista_E}/>
       <Route path="/cadastrocursos" component={Curso}/>
       <Route path="/cadastroentre" component={Cadastro}/>
-      <Route path="/sobre" component={Sobre}/>
+      <Route path="/finale" component={FinalE} />
+
+
 
       </Router>
     </div>

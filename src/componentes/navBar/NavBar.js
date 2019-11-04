@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "./NavBar.scss"
 
 const NavBar = () => {
@@ -17,34 +17,33 @@ const NavBar = () => {
     return (
      <div className="NavBar">
             <nav>
+                
              <div className="ancora">
-                <h1>DESCOMPLICA</h1>
+                
 
 
-                <a onClick={FecharMenu} href='/'>HOME</a>
-                <a onClick={FecharMenu} href="/cursos"> CURSOS</a>
-                <a onClick={FecharMenu} href="/entrenimentos">ENTERTENIMENTOS</a>
-                <a onClick={FecharMenu} href="/sobre">SOBRE</a>
+                <Link onClick={FecharMenu} to='/'>HOME</Link>
+                <Link onClick={FecharMenu} to="/cursos"> CURSOS</Link>
+                <Link onClick={FecharMenu} to="/entrenimentos">ENTERTENIMENTOS</Link>
+                <Link onClick={FecharMenu} to="/sobre">SOBRE</Link>
 
 
 
                 </div>
+                
                 <div onClick={AbrirMenu} id="menu-hamburguer">
                     <span className={`${menuAtivo ? "virarX1" : ""}`}></span>
                     <span className={`${menuAtivo ? "sumirIgualTiro" : ""}`}></span>
                     <span className={`${menuAtivo ? "virarX2" : ""}`}></span>
                 </div>
+                <h1>DESCOMPLICA</h1>
             </nav>
             <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
-                <h1>DESCOMPLICA</h1>
-
-
-                <a onClick={FecharMenu} href='/'>HOME</a>
-                <a onClick={FecharMenu} href="/cursos"> CURSOS</a>
-                <a onClick={FecharMenu} href="/entretenimentos">ENTERTENIMENTOS</a>
-                <a onClick={FecharMenu} href="/sobre">SOBRE</a>
-
-
+                
+                <Link onClick={FecharMenu} to='/'>HOME</Link>
+                <Link onClick={FecharMenu} to="/cursos"> CURSOS</Link>
+                <Link onClick={FecharMenu} to="/entrenimentos">ENTERTENIMENTOS</Link>
+                <Link onClick={FecharMenu} to="/sobre">SOBRE</Link>
             </section>
         </div>
     );
